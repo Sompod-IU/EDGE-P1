@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 8% auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.highlight {
+    color: purple;
+}
+
+.login-container {
+    background-color: #4378e153;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color:black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(252, 139, 2);
+}

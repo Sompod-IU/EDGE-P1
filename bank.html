@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baper Bank</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to our <span class="highlight">Baper Bank</span>!!!</h1>
+        <div class="balance-container">
+            <div class="balance-item" id="deposit-section">
+                <h2 id="heading">Deposit</h2>
+                <p id="deposit-amount">$00</p>
+            </div>
+            <div class="balance-item" id="withdraw-section">
+                <h2 id="heading">Withdraw</h2>
+                <p id="withdraw-amount">$00</p>
+            </div>
+            <div class="balance-item" id="balance-section">
+                <h2 id="heading">Balance</h2>
+                <p id="balance-amount">$1240</p>
+            </div>
+        </div>
+        <div class="transaction-container">
+            <div class="transaction-item1">
+                <h3>Please Deposit</h3>
+                <input type="number" id="deposit-input" placeholder="Enter your deposit money">
+                <button class="deposit" onclick="depositMoney()">Deposit</button>
+            </div>
+            <div class="transaction-item2">
+                <h3>Please Withdraw</h3>
+                <input type="number" id="withdraw-input" placeholder="Enter your withdraw money">
+                <button class="withdraw" onclick="withdrawMoney()">Withdraw</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

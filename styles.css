@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.highlight {
+    color: purple;
+}
+
+.balance-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.balance-item {
+    flex: 1;
+    margin: 0 10px;
+    padding: 0 px 10px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+}
+
+#deposit-section {
+    background-color: rgb(44, 194, 94);
+}
+
+#withdraw-section {
+    background-color: rgba(255, 166, 0, 0.925);
+}
+
+#balance-section {
+    background-color: rgba(154, 26, 239, 0.813);
+}
+#deposit-amount{
+    color:white;
+    font-size: 30px;
+    padding:0% 5% 5% 5%;
+    font-weight: 1200;
+}
+#withdraw-amount{
+    color:white;
+    font-size: 30px;
+    padding:0% 5% 5% 5%;
+    font-weight: 1200;
+}
+#balance-amount{
+    color:white;
+    font-size: 30px;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    font-weight: 1200;
+    align-items: center;
+    align-content: center;
+}
+#heading{
+    color:white;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    align-items: center;
+    align-content: center;
+}
+.transaction-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.transaction-item1 {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #eb74e3;
+    border-radius: 5px;
+}
+.transaction-item2 {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #2262bbcc;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.deposit {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(19, 152, 4);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deposit:hover {
+    background-color: rgb(5, 80, 4);
+}
+.withdraw {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(225, 39, 39);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.withdraw:hover {
+    background-color: rgb(126, 5, 5);
+}
